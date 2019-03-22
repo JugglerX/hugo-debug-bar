@@ -1,0 +1,43 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hugo Debug Bar"
+theme = "hugo-hero-theme"
+
+[params]
+  google_analytics_id=""
+  debugbar = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Testing a debug bar"
+    meta_og_title = "Hugo Debug Bar"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-debug-bar.netlify.com"
+    meta_og_image = ""
+    meta_og_description = "Testing a debug bar"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"

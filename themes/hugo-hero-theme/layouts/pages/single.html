@@ -1,0 +1,14 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-pages-single{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+
+{{ define "debug" }}
+{{ partial "debug" (dict "context" . "template" "layouts/pages/single.html") }}
+{{ end }}
