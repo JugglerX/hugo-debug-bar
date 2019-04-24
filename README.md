@@ -1,6 +1,6 @@
 # Hugo Debug Bar
 
-Very much a work in progress, attempting to create a developer tool for Hugo themers. 
+Very much a work in progress, this is a basic theme debugging tool for Hugo. It is overlaid in the browser, similar to web developer toolbars I used for Drupal.
 
 **Demo:** https://distracted-volhard-ea30bf.netlify.com/services/accounting
 
