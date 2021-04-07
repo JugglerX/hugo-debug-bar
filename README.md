@@ -2,7 +2,7 @@
 
 Very much a work in progress, this is a basic theme debugging tool for Hugo. It is overlaid in the browser, similar to web developer toolbars I used for Drupal.
 
-**Demo:** https://distracted-volhard-ea30bf.netlify.com/services/accounting
+**Demo:** https://hugo-debug-bar.netlify.app/
 
 Much of the logic for printing the hugo variables is taken from here - https://github.com/kaushalmodi/hugo-debugprint/blob/master/layouts/partials/debugprint.html
 
@@ -23,3 +23,4 @@ More developer tools to surface the lookup order and how different content struc
 
 - https://discourse.gohugo.io/t/printing-template-lookup-order-and-chosen-template/17688
 - https://discourse.gohugo.io/t/prototyping-a-hugo-debug-bar/17691
+- https://discourse.gohugo.io/t/a-hugo-debug-table-module/31858
